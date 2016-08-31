@@ -28,11 +28,7 @@ module.exports = function(router) {
             response.emailId = rows[0].emailId;
             response.mobileNo = rows[0].mobileNo;
             response.empId = rows[0].empId;
-<<<<<<< HEAD
-            //response.userId = rows[0].userId;
-=======
             response.userId = rows[0].userId;
->>>>>>> 4b616c9... Basic api for Node js
             console.log('response:', response);
             res.json(response);
     })

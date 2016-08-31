@@ -28,7 +28,8 @@ module.exports = function(router) {
             response.emailId = rows[0].emailId;
             response.mobileNo = rows[0].mobileNo;
             response.empId = rows[0].empId;
-            //response.userId = rows[0].userId;
+            response.userId = rows[0].userId;
+            response.userId = rows[0].userId;
             console.log('response:', response);
             res.json(response);
     })

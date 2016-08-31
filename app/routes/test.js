@@ -29,6 +29,8 @@ module.exports = function(router) {
             response.mobileNo = rows[0].mobileNo;
             response.empId = rows[0].empId;
             response.userId = rows[0].userId;
+            console.log('I wrote this in commit one')
+            console.log('Im adding this to the same commit')
             console.log('response:', response);
             res.json(response);
     })

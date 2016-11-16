@@ -7,7 +7,6 @@ module.exports = function(router) {
   // This will handle the url calls for /users/:user_id
   router.route('/:userId')
   .get(function(req, res, next) {
-    logger.info('[APP] GET  lol');
     res.json({notes: "This is your notebook. Edit this to start saving your notes!"})
   })
   .put(function(req, res, next) {

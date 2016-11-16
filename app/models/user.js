@@ -2,4 +2,13 @@
 // INITILIAZE your model here
 // var User =  new Model()
 
-// module.exports = User;
+var User = function(data){
+	this.data = data;
+}
+var logger = require('winston');
+
+User.getlog = function(){
+	  logger.info('This is looggerrr 101');
+}
+
+module.exports = User;
